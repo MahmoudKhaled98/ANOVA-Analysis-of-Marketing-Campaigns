@@ -95,7 +95,7 @@ Building the model again after transforming the dependent variable `Sales` becau
 
 Verifying that the normality assumption is upheld for the model after the transformation.
 
-- The residuals almost form a 'bell shape,' indicating they are normally distributed.
+- The residuals almost form a 'bell shape', indicating they are normally distributed.
 
 **Constant Variance (Homoscedasticity) Assumption** 
 
@@ -108,11 +108,11 @@ Verifying the constant variance (homoscedasticity) assumption is met for this mo
 
 **The Interpretation of the Model's R-squared**
 
-79.6% of the variation in Sales is explained by the variation in TV promotion.
+`79.6%` of the variation in Sales is explained by the variation in `TV` promotion.
 
 **The Interpretation of the Coefficient Estimates**
 
-The coefficient for the "Low" TV category (-1.2555) indicates that sales are approximately 71.51% lower compared to the "High" category, while the "Medium" category (-0.4211) has sales about 34.4% lower than "High." Both coefficients are statistically significant with p-values < 0.0001, meaning the differences in sales between the categories are not due to random chance. Thus, the TV categories have a significant impact on sales in the model.
+The coefficient for the `Low` TV category `-1.2555` indicates that sales are approximately `71.51%` lower compared to the `High` category, while the `Medium` category `-0.4211` has sales about `34.4%` lower than "`High` Both coefficients are statistically significant with `p-values < 0.0001`, meaning the differences in sales between the categories are not due to random chance. Thus, the `TV` categories have a significant impact on sales in the model.
 
 ( Note: The percentage is calculated by this formula because the dependent variable was log transformed: (e^-0.4211−1)×100 ).
 
@@ -128,7 +128,7 @@ $H_A$: At least one of the 3 categories is different from the others.
 
 ### ANOVA Results
 
-- The F-test statistic is 1105.98 and the p-value is $2.97 * 10^-196 (i.e., very small). Because the p-value is less than 0.05, I would reject the null hypothesis that there is no difference in `Sales` based on the `TV` promotion budget.
+- The F-test statistic is 1105.98 and the p-value is `$2.97 * 10^-196` (i.e., very small). Because the p-value is less than `0.05`, I would reject the null hypothesis that there is no difference in `Sales` based on the `TV` promotion budget.
 
 **Post Hoc Analysis**
 
@@ -143,15 +143,15 @@ The results of this project indicate that there are significant differences in s
 
 **Key Insights**
 
-- Sales Variation: 79.6% of the variation in Sales is explained by differences in TV promotion categories.
+- Sales Variation: `79.6%` of the variation in Sales is explained by differences in `TV` promotion categories.
 
-- Impact of TV Categories: Sales are approximately 71.51% lower for the "Low" TV category and 34.4% lower for the "Medium" category compared to "High." These differences are statistically significant (p < 0.0001).
+- Impact of TV Categories: Sales are approximately `71.51% `lower for the `Low` TV category and `34.4%` lower for the `Medium` category compared to `High` These differences are statistically significant `p < 0.0001`.
 
 - Statistical Significance: The results of both the one-way ANOVA and Tukey’s HSD tests confirm significant differences in Sales between TV promotion categories.
 
 **Summary for Stakeholder**
 
-The analysis shows that 79.6% of the variation in Sales can be attributed to differences in TV promotion categories. Sales in the "Low" TV category are approximately 71.51% lower, and sales in the "Medium" category are about 34.4% lower compared to the "High" category. The model is a reliable predictor of Sales with an R-squared value of 0.796. Statistical tests, including one-way ANOVA and Tukey’s HSD, confirm significant differences between all TV promotion categories, meaning TV promotion has a substantial impact on sales.
+The analysis shows that `79.6%` of the variation in Sales can be attributed to differences in TV promotion categories. Sales in the `Low` TV category are approximately `71.51%` lower, and sales in the `Medium` category are about `34.4%` lower compared to the `High` category. The model is a reliable predictor of Sales with an R-squared value of `0.796`. Statistical tests, including one-way ANOVA and Tukey’s HSD, confirm significant differences between all `TV` promotion categories, meaning `TV` promotion has a substantial impact on sales.
 
 ## How to Run
 
