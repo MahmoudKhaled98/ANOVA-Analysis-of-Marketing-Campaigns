@@ -8,16 +8,16 @@ The project will involve conducting a one-way ANOVA test, along with post hoc an
 
 ## **Table of Contents**
 
-- [Introduction](#Introduction)
-- [Step 1: Imports](#Step-1:-Imports)
-- [Step 2: Data Exploration](#Step-2:-Data-Exploration)
-- [Step 3: Model Building](#Step-3:-Model-Building)
-- [Step 4: Results and Evaluation](#Step-4:-Results-and-Evaluation)
-- [Conclusion](#Conclusion)
+- [Introduction](#introduction)
+- [Step 1: Imports](#step-1-imports)
+- [Step 2: Data Exploration](#step-2-data-exploration)
+- [Step 3: Model Building](#step-3-model-building)
+- [Step 4: Results and Evaluation](#step-4-results-and-evaluation)
+- [Conclusion](#conclusion)
 - [How to Run](#how-to-run)
-- [References](#References)
+- [References](#references)
 
-## **Introduction**
+## Introduction
 
 Analysis of variance (commonly called ANOVA) is a group of statistical techniques that test the difference of means among three or more groups. It's a powerful tool for determining whether population means are different across groups and for answering a wide range of business questions.
 
@@ -42,7 +42,8 @@ To address this request, a one-way ANOVA test will enable us to determine if the
 - Load the marketing dataset that contains information on promotional spending and corresponding sales.
 
 
-## **Step 2: Data Exploration**
+## Step 2: Data Exploration
+
 **Some reasons for conducting an EDA before constructing a simple linear regression model:** 
 * To understand which variables are present in the data
 * To consider the distribution of features, such as minimum, mean, and maximum values
@@ -60,7 +61,7 @@ To address this request, a one-way ANOVA test will enable us to determine if the
 
 ### Checking and Removing Missing Data if Exists
 
-## **Step 3: Model Building**
+## Step 3: Model Building
 
 Fitting a linear regression model that predicts `Sales` using one of the independent categorical variables in `data`.
 
@@ -102,7 +103,7 @@ Verifying the constant variance (homoscedasticity) assumption is met for this mo
 
 - The variance where there are fitted values is similarly distributed, validating that the constant variance assumption is met.
 
-## **Step 4: Results and Evaluation**
+## Step 4: Results and Evaluation
 
 
 **The Interpretation of the Model's R-squared**
