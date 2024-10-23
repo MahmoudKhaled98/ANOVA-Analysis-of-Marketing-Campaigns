@@ -114,7 +114,7 @@ Verifying the constant variance (homoscedasticity) assumption is met for this mo
 
 The coefficient for the "Low" TV category (-1.2555) indicates that sales are approximately 71.51% lower compared to the "High" category, while the "Medium" category (-0.4211) has sales about 34.4% lower than "High." Both coefficients are statistically significant with p-values < 0.0001, meaning the differences in sales between the categories are not due to random chance. Thus, the TV categories have a significant impact on sales in the model.
 
-Note: The percentage is calculated by this formula because the dependent variable was log transformed: (e^-0.4211−1)×100
+( Note: The percentage is calculated by this formula because the dependent variable was log transformed: (e^-0.4211−1)×100 ).
 
 ### Perform a One-Way ANOVA Test
 
