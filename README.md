@@ -65,7 +65,6 @@ To address this request, a one-way ANOVA test will enable us to determine if the
 
 Fitting a linear regression model that predicts `Sales` using one of the independent categorical variables in `data`.
 
-**Question:** Which categorical variable did you choose for the model? Why?
 * `TV` was selected as the preceding analysis showed a strong relationship between the `TV` promotion budget and the average `Sales`.
 * `Influencer` was not selected because it did not show a strong relationship to `Sales` in the analysis.
 
